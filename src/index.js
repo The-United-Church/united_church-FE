@@ -22,6 +22,8 @@ import Header1 from './components/Header1';
 import Hero from './components/Hero';
 import About from './components/About';
 import Service from './components/Service';
+import Form from './components/Form';
+import Benefits from './components/Benefits';
 // import { Top_bar } from './top_bar';
 // import App from './App';
 
@@ -32,56 +34,15 @@ root.render(
     <Hero/>
     <About/>
     <Service/>
-
+    <Form/>
+    <Benefits/>
 
     
 
-    <h2 class="reach-out"> Lets Start A Conversation</h2>
-
-    {/* <!-- Contact Form Section --> */}
-    <section class="contact">
-        <div class="form-container">
-            <form class="vertical-form" action="https://submit-form.com/3cMe44hPR">
-                <h2>Contact Us</h2>
-                <label for="first-name">First name</label>
-                <input id="first-name" name="first-name" type="text" required />
-                <label for="last-name">Last name</label>
-                <input id="last-name" name="last-name" type="text" required />
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required />
-                <label for="message">Message</label>
-                <textarea id="message" name="message" cols="15" rows="5" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
+    
     
 
-    <section class="benefits-section">
-      <div class="container">
-          <div class="benefit">
-              <div class="icon">
-                  <i class="fas fa-moon"></i>
-              </div>
-              <h3>No More Late Night Disposals</h3>
-              <p>Students no longer need to come out late at night to dispose of their garbage. Throwaydotty has got you covered.</p>
-          </div>
-          <div class="benefit">
-              <div class="icon">
-                  <i class="fas fa-shield-alt"></i>
-              </div>
-              <h3>Avoid Issues with Waste Taskforce</h3>
-              <p>Our customers will no longer have issues with the waste management taskforce of Rivers State over disposing dirt at the wrong time. We have you covered.</p>
-          </div>
-          <div class="benefit">
-              <div class="icon">
-                  <i class="fas fa-walking"></i>
-              </div>
-              <h3>No More Long Walks with Heavy Garbage</h3>
-              <p>Our clients no longer need to walk long distances carrying heavy garbage to dispose of it. Let us handle it for you.</p>
-          </div>
-      </div>
-  </section>
+    
  
   <section class="pickup-section">
     <div class="container">
