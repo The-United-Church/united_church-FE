@@ -1,0 +1,29 @@
+.main-container{
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar container"; 
+    grid-template-rows: 10vh 90vh;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-header{
+    grid-area: header;
+}
+
+.main-sidebar{
+    grid-area: sidebar;
+    background-color: rgb(248, 248, 248);
+    padding: 10px 0px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.main-content{
+    grid-area: container;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-color: lightgray transparent;
+}
