@@ -1,12 +1,17 @@
-.sidebarLabel{
-    display: flex;
-    align-items: center;
-    column-gap:10px;
-    margin: 10px 10px;
-    color: #0b6c99;
-    font-weight: bold;
-    font-size: 14px;
+.red {
+    border: 2px solid red;
 }
-.treeViewItemStyle{
-    margin-bottom: 20px !important;
+
+.green {
+    border: 2px solid green;
 }
+
+.black {
+    border: 1px solid black;
+}
+
+
+.yellow {
+    border: 2px solid yellow;
+}
+
