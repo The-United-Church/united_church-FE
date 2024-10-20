@@ -61,7 +61,7 @@ a:hover {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: auto) {
   #desktop-nav {
     display: none;
   }
